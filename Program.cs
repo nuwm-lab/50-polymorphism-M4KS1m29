@@ -24,6 +24,7 @@ class SystemOfEquations2x2 : SystemOfEquations
         }
     }
 
+
     public override void DisplaySystem()
     {
         Console.WriteLine($"{coefficients[0, 0]}*x1 + {coefficients[0, 1]}*x2 = {constants[0]}");
@@ -77,7 +78,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Choose system type: 1 for 2x2, 2 for 3x3");
+        Console.WriteLine("Choose system type: 1 for 2x2, 2 for 3x3 ");
         char userChoose = Console.ReadKey().KeyChar;
         Console.WriteLine();
 
